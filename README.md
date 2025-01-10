@@ -95,5 +95,38 @@ Sure, here is a README file for your project:
 
 ```sh
 git clone https://github.com/your-username/fullstack-chat-app.git
-cd fullstack-chat-app```
+cd fullstack-chat-app
+
+## Development Setup
+
+1.  **Prerequisites:**
+    *   Node.js and npm (or yarn) installed on your system.
+
+2.  **Clone the repository:**
+
+    ```bash
+    git clone [https://github.com/your-username/your-repo.git](https://github.com/your-username/your-repo.git)
+    cd your-repo
+    ```
+
+3.  **Install dependencies:**
+
+    *   For both backend and frontend (if applicable):
+
+        ```bash
+        npm install  # or yarn install
+        ```
+
+4.  **Run the application:**
+
+    *   **Backend:** Refer to the specific scripts defined in `backend/package.json` to start the backend server (e.g., `npm run dev` or `npm start`).
+    *   **Frontend:** Refer to the specific scripts defined in `frontend/package.json` to start the development server (e.g., `npm run dev` or `npm start`).
+
+## Contributing (Optional)
+
+If your project is open-source, provide instructions for how others can contribute. This includes information on pull requests, coding conventions, etc.
+
+## License
+
+Specify the license under which your project is distributed (e.g., MIT, Apache, etc.).
 
