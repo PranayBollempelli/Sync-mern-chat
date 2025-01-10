@@ -95,7 +95,7 @@ Sure, here is a README file for your project:
 
 ```sh
 git clone https://github.com/your-username/fullstack-chat-app.git
-cd fullstack-chat-app
+cd fullstack-chat-app```
 
 ## Development Setup
 
