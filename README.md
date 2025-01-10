@@ -123,10 +123,6 @@ cd fullstack-chat-app
     *   **Backend:** Refer to the specific scripts defined in `backend/package.json` to start the backend server (e.g., `npm run dev` or `npm start`).
     *   **Frontend:** Refer to the specific scripts defined in `frontend/package.json` to start the development server (e.g., `npm run dev` or `npm start`).
 
-## Contributing (Optional)
-
-If your project is open-source, provide instructions for how others can contribute. This includes information on pull requests, coding conventions, etc.
-
 ## License
 
 Specify the license under which your project is distributed (e.g., MIT, Apache, etc.).
