@@ -20,4 +20,80 @@ Collecting workspace information
 
 Sure, here is a README file for your project:
 
-. ├── backend │ ├── .env │ ├── package.json │ ├── src │ │ ├── controllers │ │ │ ├── auth.controller.js │ │ │ └── message.controller.js │ │ ├── index.js │ │ ├── lib │ │ │ ├── cloudinary.js │ │ │ ├── db.js │ │ │ ├── socket.js │ │ │ └── utils.js │ │ ├── middleware │ │ │ └── auth.middleware.js │ │ ├── models │ │ │ ├── message.model.js │ │ │ └── user.model.js │ │ ├── routes │ │ │ ├── auth.route.js │ │ │ └── message.route.js │ │ └── seeds │ │ └── user.seed.js ├── frontend │ ├── eslint.config.js │ ├── index.html │ ├── package.json │ ├── postcss.config.js │ ├── public │ ├── README.md │ ├── src │ │ ├── App.jsx │ │ ├── components │ │ │ ├── AuthImagePattern.jsx │ │ │ ├── ChatContainer.jsx │ │ │ ├── ChatHeader.jsx │ │ │ ├── MessageInput.jsx │ │ │ ├── Navbar.jsx │ │ │ ├── NoChatSelected.jsx │ │ │ └── Sidebar.jsx │ │ ├── constants │ │ ├── index.css │ │ ├── lib │ │ │ ├── axios.js │ │ │ └── utils.js │ │ ├── main.jsx │ │ ├── pages │ │ │ ├── HomePage.jsx │ │ │ ├── LoginPage.jsx │ │ │ ├── ProfilePage.jsx │ │ │ └── SettingsPage.jsx │ │ │ └── SignUpPage.jsx │ │ ├── store │ │ │ ├── useAuthStore.js │ │ │ ├── useChatStore.js │ │ │ └── useThemeStore.js │ ├── tailwind.config.js │ └── vite.config.js ├── .gitignore └── package.json
+## Table of Contents
+
+*   [Backend](#backend)
+*   [Frontend](#frontend)
+*   [Development Setup](#development-setup)
+*   [Contributing](#contributing)
+*   [License](#license)
+
+## Backend (`backend` directory)
+
+*   `.env` - Environment variables for development and potentially production configurations.
+*   `package.json` - Project dependencies and scripts for the backend.
+*   `src` - Source code for the backend application:
+    *   `controllers` - Controllers for handling API requests.
+        *   `auth.controller.js`
+        *   `message.controller.js`
+    *   `index.js` - Entry point for the backend application.
+    *   `lib` - Utility libraries used throughout the backend.
+        *   `cloudinary.js` - Cloudinary integration.
+        *   `db.js` - Database connection and setup.
+        *   `socket.js` - Socket.IO setup (if applicable).
+        *   `utils.js` - General utility functions.
+    *   `middleware` - Middleware functions for authentication, authorization, etc.
+        *   `auth.middleware.js` - Authentication middleware.
+    *   `models` - Data models representing database entities.
+        *   `message.model.js` - Message data model.
+        *   `user.model.js` - User data model.
+    *   `routes` - API endpoints defined for the backend.
+        *   `auth.route.js` - Authentication routes.
+        *   `message.route.js` - Message routes.
+    *   `seeds` - Seed data for populating the database during development.
+        *   `user.seed.js` - User seed data.
+
+## Frontend (`frontend` directory)
+
+*   `eslint.config.js` - Configuration for the ESLint linter, ensuring code quality.
+*   `index.html` - The main HTML entry point for the frontend application.
+*   `package.json` - Project dependencies and scripts for the frontend.
+*   `postcss.config.js` - Configuration for handling CSS preprocessors.
+*   `public` - Static assets accessible directly by the browser.
+*   `src` - Source code for the frontend application:
+    *   `App.jsx` - The root component of the frontend application.
+    *   `components` - Reusable UI components for building the frontend.
+        *   `AuthImagePattern.jsx`
+        *   `ChatContainer.jsx`
+        *   `ChatHeader.jsx`
+        *   `MessageInput.jsx`
+        *   `Navbar.jsx`
+        *   `NoChatSelected.jsx`
+        *   `Sidebar.jsx`
+    *   `constants` - Global constants used throughout the frontend.
+    *   `index.css` - Global CSS styles for the frontend.
+    *   `lib` - Utility libraries used throughout the frontend.
+        *   `axios.js` - Axios HTTP client setup.
+        *   `utils.js` - General utility functions.
+    *   `main.jsx` - The entry point for the frontend application.
+    *   `pages` - Individual pages of the application.
+        *   `HomePage.jsx`
+        *   `LoginPage.jsx`
+        *   `ProfilePage.jsx`
+        *   `SettingsPage.jsx`
+        *   `SignUpPage.jsx`
+    *   `store` - State management (e.g., using Redux, Context API, or Zustand).
+        *   `useAuthStore.js`
+        *   `useChatStore.js`
+        *   `useThemeStore.js`
+    *   `tailwind.config.js` - Configuration for the Tailwind CSS utility framework.
+*   `vite.config.js` - Configuration for the Vite development server.
+
+## Installation
+
+1. Clone the repository:
+
+```sh
+git clone https://github.com/your-username/fullstack-chat-app.git
+cd fullstack-chat-app```
+
